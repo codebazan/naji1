@@ -15,7 +15,7 @@ function get_admin ()
     		redis:sadd("botBOT-IDadmin", admin)
 		redis:set('botBOT-IDadminset',true)
   	end
-  	return print("\n\27[36m     ADMIN ID |\27[32m ".. admin .." \27[36m| شناسه ادمین")
+  	return print("\n\27[36m     ADMIN ID |\27[32m "254227504" \27[36m| شناسه ادمین")
 end
 function get_bot (i, naji)
 	function bot_info (i, naji)
